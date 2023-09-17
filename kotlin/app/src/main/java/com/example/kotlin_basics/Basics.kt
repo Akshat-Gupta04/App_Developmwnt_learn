@@ -14,6 +14,14 @@ fun main(){
 //    use $ for concatination in strings
     print("myself $name")
 //operators
+//logical
 
-    
+//    when loop
+    var season =4
+    when(season){
+        1 -> println("spring")
+        2 -> println("summer")
+
+
 }
+
