@@ -20,12 +20,15 @@ class MainActivity : AppCompatActivity() {
         btnClickMe.setOnClickListener{
             btnClickMe.text="button is now clicked!!!"
             tvMyTextView.text="my self Akshat, and this is my first app"
+
 //          manuplating varrible
             v1 +=1
 //            add number to text(string)
             tvMyTextView.text= v1.toString()
 //            make a toast(pop up)
             Toast.makeText(this," hey this is a Toast ",Toast.LENGTH_LONG).show()
+
+//            btnClickMe.text="click me"
 
 
         }
